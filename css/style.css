@@ -88,6 +88,16 @@ span {
     }
 }
 
+/*Color picker*/
+
+input {
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    border: none;
+}
+
+
 /*Media Queries*/
 
 @media screen and (max-width: 992px) {
@@ -99,7 +109,7 @@ span {
         padding: 0;
         margin: 5px 0;
     }
-    
+
     .columns:not(:first-child) {
         justify-content: center;
     }
